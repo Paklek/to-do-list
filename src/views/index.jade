@@ -1,0 +1,14 @@
+html
+	head
+		title TO DO LIST
+		link(rel="stylesheet", href="/styles/style.css")
+	body
+		h1 Tes TO DO LIST
+		#todolist
+			table
+				each i in lists
+					tr 
+						td= i.target_tujuan
+			form
+				input(type="text", name="isi_data", id="isi_data")
+				input(type="submit", name="data_submit", id="data_submit", value="Tambahkan") 

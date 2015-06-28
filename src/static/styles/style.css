@@ -1,0 +1,23 @@
+body{
+	background-color: #ccc;
+}
+td{
+	border: 5px solid #99f;
+}
+tr:nth-child(odd){
+	background-color: #999;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+#todolist{
+	width: 30%;
+	margin: 0 auto;
+}
+form{
+	width: 100%;
+}
+#isi_data{
+	width: 79.2%;
+}
